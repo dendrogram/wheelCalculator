@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91F2F8201815AA50000821AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F2F81F1815AA50000821AF /* Foundation.framework */; };
+		91F2F8221815AA50000821AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F2F8211815AA50000821AF /* CoreGraphics.framework */; };
+		91F2F8241815AA50000821AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F2F8231815AA50000821AF /* UIKit.framework */; };
+		91F2F82A1815AA50000821AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91F2F8281815AA50000821AF /* InfoPlist.strings */; };
+		91F2F82C1815AA50000821AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F2F82B1815AA50000821AF /* main.m */; };
+		91F2F8301815AA50000821AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F2F82F1815AA50000821AF /* AppDelegate.m */; };
+		91F2F8331815AA50000821AF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F2F8311815AA50000821AF /* Main_iPhone.storyboard */; };
+		91F2F8361815AA50000821AF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F2F8341815AA50000821AF /* Main_iPad.storyboard */; };
+		91F2F8391815AA50000821AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F2F8381815AA50000821AF /* ViewController.m */; };
+		91F2F83B1815AA50000821AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F2F83A1815AA50000821AF /* Images.xcassets */; };
+		91F2F8421815AA50000821AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F2F8411815AA50000821AF /* XCTest.framework */; };
+		91F2F8431815AA50000821AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F2F81F1815AA50000821AF /* Foundation.framework */; };
+		91F2F8441815AA50000821AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F2F8231815AA50000821AF /* UIKit.framework */; };
+		91F2F84C1815AA50000821AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91F2F84A1815AA50000821AF /* InfoPlist.strings */; };
+		91F2F84E1815AA50000821AF /* WheelDiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F2F84D1815AA50000821AF /* WheelDiaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91F2F8451815AA50000821AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F2F8141815AA50000821AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F2F81B1815AA50000821AF;
+			remoteInfo = WheelDia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91F2F81C1815AA50000821AF /* WheelDia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelDia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F2F81F1815AA50000821AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91F2F8211815AA50000821AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91F2F8231815AA50000821AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91F2F8271815AA50000821AF /* WheelDia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WheelDia-Info.plist"; sourceTree = "<group>"; };
+		91F2F8291815AA50000821AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91F2F82B1815AA50000821AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91F2F82D1815AA50000821AF /* WheelDia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WheelDia-Prefix.pch"; sourceTree = "<group>"; };
+		91F2F82E1815AA50000821AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91F2F82F1815AA50000821AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91F2F8321815AA50000821AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		91F2F8351815AA50000821AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		91F2F8371815AA50000821AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91F2F8381815AA50000821AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91F2F83A1815AA50000821AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91F2F8401815AA50000821AF /* WheelDiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelDiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F2F8411815AA50000821AF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		91F2F8491815AA50000821AF /* WheelDiaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WheelDiaTests-Info.plist"; sourceTree = "<group>"; };
+		91F2F84B1815AA50000821AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91F2F84D1815AA50000821AF /* WheelDiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelDiaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91F2F8191815AA50000821AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F2F8221815AA50000821AF /* CoreGraphics.framework in Frameworks */,
+				91F2F8241815AA50000821AF /* UIKit.framework in Frameworks */,
+				91F2F8201815AA50000821AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F2F83D1815AA50000821AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F2F8421815AA50000821AF /* XCTest.framework in Frameworks */,
+				91F2F8441815AA50000821AF /* UIKit.framework in Frameworks */,
+				91F2F8431815AA50000821AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91F2F8131815AA50000821AF = {
+			isa = PBXGroup;
+			children = (
+				91F2F8251815AA50000821AF /* WheelDia */,
+				91F2F8471815AA50000821AF /* WheelDiaTests */,
+				91F2F81E1815AA50000821AF /* Frameworks */,
+				91F2F81D1815AA50000821AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91F2F81D1815AA50000821AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F2F81C1815AA50000821AF /* WheelDia.app */,
+				91F2F8401815AA50000821AF /* WheelDiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F2F81E1815AA50000821AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91F2F81F1815AA50000821AF /* Foundation.framework */,
+				91F2F8211815AA50000821AF /* CoreGraphics.framework */,
+				91F2F8231815AA50000821AF /* UIKit.framework */,
+				91F2F8411815AA50000821AF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91F2F8251815AA50000821AF /* WheelDia */ = {
+			isa = PBXGroup;
+			children = (
+				91F2F82E1815AA50000821AF /* AppDelegate.h */,
+				91F2F82F1815AA50000821AF /* AppDelegate.m */,
+				91F2F8311815AA50000821AF /* Main_iPhone.storyboard */,
+				91F2F8341815AA50000821AF /* Main_iPad.storyboard */,
+				91F2F8371815AA50000821AF /* ViewController.h */,
+				91F2F8381815AA50000821AF /* ViewController.m */,
+				91F2F83A1815AA50000821AF /* Images.xcassets */,
+				91F2F8261815AA50000821AF /* Supporting Files */,
+			);
+			path = WheelDia;
+			sourceTree = "<group>";
+		};
+		91F2F8261815AA50000821AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91F2F8271815AA50000821AF /* WheelDia-Info.plist */,
+				91F2F8281815AA50000821AF /* InfoPlist.strings */,
+				91F2F82B1815AA50000821AF /* main.m */,
+				91F2F82D1815AA50000821AF /* WheelDia-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91F2F8471815AA50000821AF /* WheelDiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				91F2F84D1815AA50000821AF /* WheelDiaTests.m */,
+				91F2F8481815AA50000821AF /* Supporting Files */,
+			);
+			path = WheelDiaTests;
+			sourceTree = "<group>";
+		};
+		91F2F8481815AA50000821AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91F2F8491815AA50000821AF /* WheelDiaTests-Info.plist */,
+				91F2F84A1815AA50000821AF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91F2F81B1815AA50000821AF /* WheelDia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F2F8511815AA50000821AF /* Build configuration list for PBXNativeTarget "WheelDia" */;
+			buildPhases = (
+				91F2F8181815AA50000821AF /* Sources */,
+				91F2F8191815AA50000821AF /* Frameworks */,
+				91F2F81A1815AA50000821AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheelDia;
+			productName = WheelDia;
+			productReference = 91F2F81C1815AA50000821AF /* WheelDia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91F2F83F1815AA50000821AF /* WheelDiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F2F8541815AA50000821AF /* Build configuration list for PBXNativeTarget "WheelDiaTests" */;
+			buildPhases = (
+				91F2F83C1815AA50000821AF /* Sources */,
+				91F2F83D1815AA50000821AF /* Frameworks */,
+				91F2F83E1815AA50000821AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91F2F8461815AA50000821AF /* PBXTargetDependency */,
+			);
+			name = WheelDiaTests;
+			productName = WheelDiaTests;
+			productReference = 91F2F8401815AA50000821AF /* WheelDiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91F2F8141815AA50000821AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jonathan Howell";
+				TargetAttributes = {
+					91F2F83F1815AA50000821AF = {
+						TestTargetID = 91F2F81B1815AA50000821AF;
+					};
+				};
+			};
+			buildConfigurationList = 91F2F8171815AA50000821AF /* Build configuration list for PBXProject "WheelDia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91F2F8131815AA50000821AF;
+			productRefGroup = 91F2F81D1815AA50000821AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91F2F81B1815AA50000821AF /* WheelDia */,
+				91F2F83F1815AA50000821AF /* WheelDiaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91F2F81A1815AA50000821AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F2F8361815AA50000821AF /* Main_iPad.storyboard in Resources */,
+				91F2F83B1815AA50000821AF /* Images.xcassets in Resources */,
+				91F2F8331815AA50000821AF /* Main_iPhone.storyboard in Resources */,
+				91F2F82A1815AA50000821AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F2F83E1815AA50000821AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F2F84C1815AA50000821AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91F2F8181815AA50000821AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F2F8391815AA50000821AF /* ViewController.m in Sources */,
+				91F2F8301815AA50000821AF /* AppDelegate.m in Sources */,
+				91F2F82C1815AA50000821AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F2F83C1815AA50000821AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F2F84E1815AA50000821AF /* WheelDiaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91F2F8461815AA50000821AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91F2F81B1815AA50000821AF /* WheelDia */;
+			targetProxy = 91F2F8451815AA50000821AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91F2F8281815AA50000821AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F2F8291815AA50000821AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91F2F8311815AA50000821AF /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F2F8321815AA50000821AF /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		91F2F8341815AA50000821AF /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F2F8351815AA50000821AF /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		91F2F84A1815AA50000821AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F2F84B1815AA50000821AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91F2F84F1815AA50000821AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91F2F8501815AA50000821AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91F2F8521815AA50000821AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WheelDia/WheelDia-Prefix.pch";
+				INFOPLIST_FILE = "WheelDia/WheelDia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91F2F8531815AA50000821AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WheelDia/WheelDia-Prefix.pch";
+				INFOPLIST_FILE = "WheelDia/WheelDia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91F2F8551815AA50000821AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WheelDia.app/WheelDia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WheelDia/WheelDia-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WheelDiaTests/WheelDiaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		91F2F8561815AA50000821AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WheelDia.app/WheelDia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WheelDia/WheelDia-Prefix.pch";
+				INFOPLIST_FILE = "WheelDiaTests/WheelDiaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91F2F8171815AA50000821AF /* Build configuration list for PBXProject "WheelDia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F2F84F1815AA50000821AF /* Debug */,
+				91F2F8501815AA50000821AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F2F8511815AA50000821AF /* Build configuration list for PBXNativeTarget "WheelDia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F2F8521815AA50000821AF /* Debug */,
+				91F2F8531815AA50000821AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91F2F8541815AA50000821AF /* Build configuration list for PBXNativeTarget "WheelDiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F2F8551815AA50000821AF /* Debug */,
+				91F2F8561815AA50000821AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91F2F8141815AA50000821AF /* Project object */;
+}
