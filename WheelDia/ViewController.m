@@ -1,10 +1,14 @@
+//--------------------------------------------------------------
 //
 //  ViewController.m
 //  WheelDia
 //
-//  Created by Jonathan Howell on 21/10/2013.
-//  Copyright (c) 2013 Jonathan Howell. All rights reserved.
+//  First Created by Jonathan Howell on 21/10/2013.
+//  This version 16/7/14
 //
+//  Copyright (c) 2014 Jonathan Howell. All rights reserved.
+//
+//--------------------------------------------------------------
 
 #import "ViewController.h"
 
