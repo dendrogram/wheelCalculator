@@ -28,8 +28,6 @@
 		91F69C7818245793004B4BD9 /* deadbeat2.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F69C7618245793004B4BD9 /* deadbeat2.png */; };
 		91F69C7918245793004B4BD9 /* 30t escape wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F69C7718245793004B4BD9 /* 30t escape wheel.png */; };
 		91F69C7B18245D27004B4BD9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F69C7A18245D27004B4BD9 /* Default-568h@2x.png */; };
-		91F69C7D18245D78004B4BD9 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F69C7C18245D78004B4BD9 /* libTestFlight.a */; };
-		E1CADA1E18AD194600DDFD72 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CADA1A18AD194600DDFD72 /* libTestFlight.a */; };
 		E1CDB3AC1818218200D727EC /* cuttt1.png in Resources */ = {isa = PBXBuildFile; fileRef = E1CDB3AB1818218200D727EC /* cuttt1.png */; };
 		E1CDB3AD181824F900D727EC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 916F73AA1815ED2D00A9441A /* libz.dylib */; };
 /* End PBXBuildFile section */
@@ -76,13 +74,7 @@
 		91F69C7618245793004B4BD9 /* deadbeat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deadbeat2.png; path = ../deadbeat2.png; sourceTree = "<group>"; };
 		91F69C7718245793004B4BD9 /* 30t escape wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "30t escape wheel.png"; path = "../30t escape wheel.png"; sourceTree = "<group>"; };
 		91F69C7A18245D27004B4BD9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		91F69C7C18245D78004B4BD9 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestFlight.a; path = "../../../../Volumes/HP V195B/TestFlightSDK2-1/libTestFlight.a"; sourceTree = "<group>"; };
-		E1CADA1A18AD194600DDFD72 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		E1CADA1B18AD194600DDFD72 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
-		E1CADA1C18AD194600DDFD72 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		E1CADA1D18AD194600DDFD72 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
 		E1CDB3AB1818218200D727EC /* cuttt1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuttt1.png; sourceTree = "<group>"; };
-		E1CDB3AE1818252E00D727EC /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestFlight.a; path = "../../Downloads/TestFlightSDK2-2/libTestFlight.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91F69C7D18245D78004B4BD9 /* libTestFlight.a in Frameworks */,
 				E1CDB3AD181824F900D727EC /* libz.dylib in Frameworks */,
 				91F2F8221815AA50000821AF /* CoreGraphics.framework in Frameworks */,
-				E1CADA1E18AD194600DDFD72 /* libTestFlight.a in Frameworks */,
 				91F2F8241815AA50000821AF /* UIKit.framework in Frameworks */,
 				91F2F8201815AA50000821AF /* Foundation.framework in Frameworks */,
 			);
@@ -115,10 +105,6 @@
 		91F2F8131815AA50000821AF = {
 			isa = PBXGroup;
 			children = (
-				E1CADA1A18AD194600DDFD72 /* libTestFlight.a */,
-				E1CADA1B18AD194600DDFD72 /* TestFlight.h */,
-				E1CADA1C18AD194600DDFD72 /* TestFlight+AsyncLogging.h */,
-				E1CADA1D18AD194600DDFD72 /* TestFlight+ManualSessions.h */,
 				91F69C7A18245D27004B4BD9 /* Default-568h@2x.png */,
 				916F73A91815E98400A9441A /* Icon-iPad-Spotlight@2x.png */,
 				916F73A81815E96200A9441A /* Icon.png */,
@@ -143,8 +129,6 @@
 		91F2F81E1815AA50000821AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				91F69C7C18245D78004B4BD9 /* libTestFlight.a */,
-				E1CDB3AE1818252E00D727EC /* libTestFlight.a */,
 				916F73AA1815ED2D00A9441A /* libz.dylib */,
 				91F2F81F1815AA50000821AF /* Foundation.framework */,
 				91F2F8211815AA50000821AF /* CoreGraphics.framework */,
@@ -453,6 +437,8 @@
 		91F2F8521815AA50000821AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -460,13 +446,6 @@
 				GCC_PREFIX_HEADER = "WheelDia/WheelDia-Prefix.pch";
 				INFOPLIST_FILE = "WheelDia/WheelDia-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/jonathanhowell/Dropbox/WheelDia/WheelDia,
-					"/Users/jonhowell/Downloads/TestFlightSDK2-2",
-					"/Volumes/HP\\ V195B/TestFlightSDK2-1",
-					/Users/jonhowell/Dropbox/WheelDia,
-				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -478,6 +457,8 @@
 		91F2F8531815AA50000821AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -485,13 +466,7 @@
 				GCC_PREFIX_HEADER = "WheelDia/WheelDia-Prefix.pch";
 				INFOPLIST_FILE = "WheelDia/WheelDia-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/jonathanhowell/Dropbox/WheelDia/WheelDia,
-					"/Users/jonhowell/Downloads/TestFlightSDK2-2",
-					"/Volumes/HP\\ V195B/TestFlightSDK2-1",
-					/Users/jonhowell/Dropbox/WheelDia,
-				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
