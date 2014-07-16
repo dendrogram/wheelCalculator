@@ -440,7 +440,7 @@ D    0.75  0.078     0.087     0.039</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rhp-yq-f0o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1038" y="1150"/>
+            <point key="canvasLocation" x="975" y="1011"/>
         </scene>
     </scenes>
     <resources>
@@ -454,6 +454,6 @@ D    0.75  0.078     0.087     0.039</string>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="xbQ-zx-zvD"/>
+        <segue reference="W8f-Hj-MB8"/>
     </inferredMetricsTieBreakers>
 </document>
